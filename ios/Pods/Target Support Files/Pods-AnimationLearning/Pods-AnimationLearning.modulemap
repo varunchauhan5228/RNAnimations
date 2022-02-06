@@ -1,0 +1,6 @@
+module Pods_AnimationLearning {
+  umbrella header "Pods-AnimationLearning-umbrella.h"
+
+  export *
+  module * { export * }
+}

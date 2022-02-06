@@ -1,0 +1,3 @@
+export const ONE_GET_DATA = 'ONE_GET_DATA';
+export const ONE_COUNTER_DATA = 'ONE_COUNTER_DATA';
+export const DASHBOARD_DATA = 'DASHBOARD_DATA';
