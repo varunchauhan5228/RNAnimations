@@ -39,7 +39,7 @@ export default ({item, valueX, index}) => {
       [0, 1, 0],
       Extrapolate.CLAMP,
     );
-    return {opacity};
+    return {imgRotate};
   });
   return (
     <View style={styles.container}>
