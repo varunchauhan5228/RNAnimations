@@ -1,4 +1,4 @@
-#Sun Jul 25 11:52:34 IST 2021
-base.0=/Users/successive45/Desktop/prctice/AnimationLearning/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Tue Feb 22 00:53:15 IST 2022
+base.0=/Users/varun/Desktop/CompanySpace/RNAnimations/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

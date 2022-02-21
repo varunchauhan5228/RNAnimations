@@ -13,6 +13,7 @@ import MountingPhaseDemo from './lifeCycle/lifeCycleDemo';
 import DateTime from './DateTime';
 import DemoHOC from './hoc';
 import PromiseDemo from './JSAsyncDemo/promise';
+import GoogleAuth from './integrations/googleAuth';
 export {
   Animation,
   DashBoard,
@@ -29,4 +30,5 @@ export {
   DateTime,
   DemoHOC,
   PromiseDemo,
+  GoogleAuth,
 };

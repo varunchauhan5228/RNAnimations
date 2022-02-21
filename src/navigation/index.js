@@ -17,6 +17,7 @@ import {
   DateTime,
   DemoHOC,
   PromiseDemo,
+  GoogleAuth,
 } from '../screens/index';
 const Stack = createStackNavigator();
 
@@ -39,6 +40,7 @@ function AppContainer() {
         <Stack.Screen name="DateTime" component={DateTime} />
         <Stack.Screen name="DemoHOC" component={DemoHOC} />
         <Stack.Screen name="PromiseDemo" component={PromiseDemo} />
+        <Stack.Screen name="GoogleAuth" component={GoogleAuth} />
       </Stack.Navigator>
     </NavigationContainer>
   );
