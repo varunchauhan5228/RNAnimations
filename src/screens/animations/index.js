@@ -23,6 +23,8 @@ const List = [
   {exercise: 'DateTime', color: '#228B22'},
   {exercise: 'HOC', color: '#F2988F'},
   {exercise: 'Promise', color: '#9FD7F1'},
+  {exercise: 'Welcome', color: '#F2988F'},
+  
 ];
 
 const Animation = (props) => {
@@ -74,6 +76,8 @@ const Animation = (props) => {
         props.navigation.navigate('DemoHOC');
       } else if (index === 12) {
         props.navigation.navigate('PromiseDemo');
+      } else if (index === 13) {
+        props.navigation.navigate('Welcome');
       }
     };
     return (

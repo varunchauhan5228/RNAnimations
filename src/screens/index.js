@@ -13,6 +13,7 @@ import MountingPhaseDemo from './lifeCycle/lifeCycleDemo';
 import DateTime from './DateTime';
 import DemoHOC from './hoc';
 import PromiseDemo from './JSAsyncDemo/promise';
+import Welcome from './splash';
 export {
   Animation,
   DashBoard,
@@ -29,4 +30,5 @@ export {
   DateTime,
   DemoHOC,
   PromiseDemo,
+  Welcome,
 };

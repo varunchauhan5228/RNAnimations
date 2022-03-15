@@ -17,6 +17,7 @@ import {
   DateTime,
   DemoHOC,
   PromiseDemo,
+  Welcome,
 } from '../screens/index';
 const Stack = createStackNavigator();
 
@@ -39,6 +40,8 @@ function AppContainer() {
         <Stack.Screen name="DateTime" component={DateTime} />
         <Stack.Screen name="DemoHOC" component={DemoHOC} />
         <Stack.Screen name="PromiseDemo" component={PromiseDemo} />
+        <Stack.Screen name="Welcome" component={Welcome} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
