@@ -1,10 +1,10 @@
 import React, {memo} from 'react';
 import {View, Text} from 'react-native';
-const _MemoDemo = () => {
+const _MemoDemo = ({arrayData}) => {
   console.log('render-Momo====>');
   return (
     <View>
-      <Text>Memo Demo</Text>
+      <Text>Memo Demo : {arrayData.name}</Text>
     </View>
   );
 };
