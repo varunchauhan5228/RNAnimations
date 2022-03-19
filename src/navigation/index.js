@@ -18,9 +18,10 @@ import {
   DemoHOC,
   PromiseDemo,
   Welcome,
+  FlatListDemo,
+  TextInputField,
 } from '../screens/index';
 const Stack = createStackNavigator();
-
 function AppContainer() {
   return (
     <NavigationContainer>
@@ -41,6 +42,8 @@ function AppContainer() {
         <Stack.Screen name="DemoHOC" component={DemoHOC} />
         <Stack.Screen name="PromiseDemo" component={PromiseDemo} />
         <Stack.Screen name="Welcome" component={Welcome} />
+        <Stack.Screen name="FlatListDemo" component={FlatListDemo} />
+        <Stack.Screen name="TextInputField" component={TextInputField} />
         
       </Stack.Navigator>
     </NavigationContainer>

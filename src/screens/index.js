@@ -14,6 +14,8 @@ import DateTime from './DateTime';
 import DemoHOC from './hoc';
 import PromiseDemo from './JSAsyncDemo/promise';
 import Welcome from './splash';
+import FlatListDemo from './FlatList/demo'
+import TextInputField from './TextInput/TextInputField'
 export {
   Animation,
   DashBoard,
@@ -31,4 +33,6 @@ export {
   DemoHOC,
   PromiseDemo,
   Welcome,
+  FlatListDemo,
+  TextInputField,
 };

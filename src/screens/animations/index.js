@@ -24,6 +24,8 @@ const List = [
   {exercise: 'HOC', color: '#F2988F'},
   {exercise: 'Promise', color: '#9FD7F1'},
   {exercise: 'Welcome', color: '#F2988F'},
+  {exercise: 'FlatListDemo', color: '#F3B000'},
+  {exercise: 'TextInputField', color: '#F2988F'},
   
 ];
 
@@ -78,6 +80,10 @@ const Animation = (props) => {
         props.navigation.navigate('PromiseDemo');
       } else if (index === 13) {
         props.navigation.navigate('Welcome');
+      } else if(index === 14){
+        props.navigation.navigate('FlatListDemo');
+      } else if(index === 15) {
+        props.navigation.navigate('TextInputField');
       }
     };
     return (
