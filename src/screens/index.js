@@ -16,6 +16,7 @@ import PromiseDemo from './JSAsyncDemo/promise';
 import Welcome from './splash';
 import FlatListDemo from './FlatList/demo'
 import TextInputField from './TextInput/TextInputField'
+import GoogleLogin from './3PLs/GoogleLogin'
 export {
   Animation,
   DashBoard,
@@ -35,4 +36,5 @@ export {
   Welcome,
   FlatListDemo,
   TextInputField,
+  GoogleLogin
 };

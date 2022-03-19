@@ -26,7 +26,7 @@ const List = [
   {exercise: 'Welcome', color: '#F2988F'},
   {exercise: 'FlatListDemo', color: '#F3B000'},
   {exercise: 'TextInputField', color: '#F2988F'},
-  
+  {exercise: 'GoogleLogin', color: '#228B22'},  
 ];
 
 const Animation = (props) => {
@@ -84,6 +84,8 @@ const Animation = (props) => {
         props.navigation.navigate('FlatListDemo');
       } else if(index === 15) {
         props.navigation.navigate('TextInputField');
+      } else if(index === 16) {
+        props.navigation.navigate('GoogleLogin');
       }
     };
     return (

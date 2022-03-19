@@ -20,6 +20,7 @@ import {
   Welcome,
   FlatListDemo,
   TextInputField,
+  GoogleLogin,
 } from '../screens/index';
 const Stack = createStackNavigator();
 function AppContainer() {
@@ -44,7 +45,7 @@ function AppContainer() {
         <Stack.Screen name="Welcome" component={Welcome} />
         <Stack.Screen name="FlatListDemo" component={FlatListDemo} />
         <Stack.Screen name="TextInputField" component={TextInputField} />
-        
+        <Stack.Screen name="GoogleLogin" component={GoogleLogin} />
       </Stack.Navigator>
     </NavigationContainer>
   );
