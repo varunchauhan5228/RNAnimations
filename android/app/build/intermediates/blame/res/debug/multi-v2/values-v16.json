@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/successive45/Desktop/prctice/AnimationLearning/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/varun/Desktop/CompanySpace/RNAnimations/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/successive45/.gradle/caches/transforms-2/files-2.1/f52ab1b1c1a6a08a00d0ab9466319bb3/core-1.3.2/res/values-v16/values-v16.xml",
+                    "source": "/Users/varun/.gradle/caches/transforms-2/files-2.1/74e98cbf801ea5c023e47892d0f0c9e7/core-1.5.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/successive45/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/varun/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
